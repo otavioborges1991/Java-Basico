@@ -21,6 +21,7 @@ public class MainController implements Initializable {
     private ListView <String> listaProjetos;
 
     @FXML
+    @SuppressWarnings("unused")
     private void MostrarProjeto() throws IOException {
         String seleção = listaProjetos.getSelectionModel().getSelectedItem(); // identifica o item selecionado 
         lblSelecionado.setText(seleção); // altera o texto do label para o item selecionado

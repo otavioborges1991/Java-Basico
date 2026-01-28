@@ -10,6 +10,8 @@ import javafx.stage.Stage;
 
 /**
  * JavaFX App
+ * Isso aqui é o ponto de entrada da aplicação JavaFX.
+ * Ele carrega o arquivo FXML principal e exibe a janela daonde as outras telas serão gerenciadas.
  */
 public class App extends Application {
 
