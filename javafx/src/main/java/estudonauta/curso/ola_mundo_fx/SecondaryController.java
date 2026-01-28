@@ -1,7 +1,7 @@
-package estudonauta.curso;
+package estudonauta.curso.ola_mundo_fx;
 
 import java.io.IOException;
-
+import estudonauta.curso.App;
 import javafx.fxml.FXML;
 
 public class SecondaryController {
